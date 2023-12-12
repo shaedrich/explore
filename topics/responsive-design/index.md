@@ -2,7 +2,7 @@
 aliases: responsive-web-design
 topic: responsive-design
 display_name: Responsive design
-related: media-queries, css-breakpoints, mobile-first, progressive-enhancement, adaptive-web-design
+related: media-queries, css-breakpoints, mobile-first, progressive-enhancement, adaptive-web-design, responsive-layout, container-queries, flexbox, responsive-grid, css-float
 released: 2001
 created_by: Audi, razorfish, Jürgen Spangl, Jim Kalbach, Ken Olling, Jan Hoffmann, Ethan Marcotte
 wikipedia_url: https://en.wikipedia.org/wiki/Responsive_web_design
