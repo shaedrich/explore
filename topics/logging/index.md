@@ -1,5 +1,5 @@
 ---
-aliases: log, logger, event-logging, data-logging, application-logging, system-logging, syslog, error-logging, error-log, audit-trail, logging-framework, log-analysis, rfc5424
+aliases: log, logger, event-logging, data-logging, application-logging, system-logging, syslog, error-logging, error-log, audit-trail, logging-framework, log-analysis, rfc5424, logs
 display_name: Logging
 short_description: Logging is your software's way of keeping a record, like a journal, documenting events and errors for future reference.
 topic: logging
