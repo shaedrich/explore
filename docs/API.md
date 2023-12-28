@@ -18,11 +18,19 @@ Each alias must be formatted like that topic's `topic` field (same as the URL sl
 * Contains only letters, numbers, and hyphens
 * At most 35 characters long
 
+Furthermore,
+* The alias must not be in use already
+* The alias must not be curated as its own topic
+* The alias must not be listed more than once under `aliases`
+* The alias must not be the same as the topic itself
+* The topic must not have more than 120 aliases
+* The alias must not be listed under `related` as well
+
 ### created_by
-(if applicable) Names of the people and/or organizations who authored the topic (NOT your name). For example, `Jordan Walke` is the author of `react`.
+(if applicable) Names of the people and/or organizations who authored the topic (NOT your name). For example, `Jordan Walke` is the author of `react`. You may list a comma-separated list of names up to 100 characters in total.
 
 ### display_name
-(required) The topic name that will be displayed on the topic page (ex. `React`). Should use proper noun capitalization. Emoji are not allowed.
+(required) The topic name that will be displayed on the topic page (ex. `React`). Should use proper noun capitalization. Emoji are not allowed. Must not exceed 50 characters.
 
 ### github_url
 (if applicable) URL of the topic's official GitHub organization or repository. Must start with `https://github.com/`.
@@ -41,13 +49,19 @@ Each related topic must be formatted like that topic's `topic` field (same as th
 * Contains only letters, numbers, and hyphens
 * At most 35 characters long
 
+Furthermore,
+* The related topic must not be the same as the topic itself
+* The related topic must not be listed more than once under `related`
+* The topic must not have more than 10 related topics
+* The related topic must not be listed under `aliases` as well
+
 Formatted as `topic1, topic2, topic3`.
 
 ### released
 (if applicable) Date of first release. Formatted as `MONTH DD, YYYY`, `MONTH YYYY`, or just `YYYY`.
 
 ### short_description
-(required) A short description of the topic, which will be used on the Explore homepage, Topics subpage, and other preview areas. Must be 130 characters or less. Emoji are not allowed.
+(required) A short description of the topic, which will be used on the Explore homepage, Topics subpage, and other preview areas. Must be 130 characters or less. Emoji are not allowed. Must not be the same as the body
 
 ### topic
 (required) Name of the topic, which will be used in the URL, e.g. `https://github.com/topics/[URL]`. Formatted as lowercase.
@@ -65,7 +79,7 @@ Acceptable formatting:
 (if applicable) URL to a Wikipedia article about the topic
 
 ### The body of your document
-(required) A longer description of the topic, which will appear on its topic page. Must be 1,000 characters or less. Should not be the same as `short_description`. Some Markdown is allowed, such as links. Emoji are allowed.
+(required) A longer description of the topic, which will appear on its topic page. Must be 2,000 characters or less. Should not be the same as `short_description`. Some Markdown is allowed, such as links. Emoji are allowed.
 
 ##  Making edits to a collection
 
