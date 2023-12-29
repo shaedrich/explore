@@ -2,7 +2,7 @@
 display_name: CSS Framework
 short_description: CSS Frameworks usually offer one or more stylesheets with basic styling/generic components, and many of them use preprocessors.
 topic: css-framework
-related: css, bootstrap, tailwind, zurb-foundation, bulma, materializecss
+related: css, bootstrap, tailwind, zurb-foundation, bulma, materializecss, tachyons
 wikipedia_url: https://en.wikipedia.org/wiki/CSS_framework
 ---
 **CSS Frameworks** offer one or multiple stylesheets from basic styling to generic components to some extent, including but not limited to
