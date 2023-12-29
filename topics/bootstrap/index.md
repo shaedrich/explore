@@ -9,6 +9,6 @@ short_description: Bootstrap is an HTML, CSS, and JavaScript framework.
 topic: bootstrap
 url: https://getbootstrap.com/
 wikipedia_url: https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)
-related: zurb-foundation, tailwind, css-framework, css-layout, css-reset, sass, responsive-design, media-queries
+related: zurb-foundation, tailwind, css-framework, css-layout, css-reset, sass, responsive-design, media-queries, bulma, materializecss
 ---
 **Bootstrap** is a popular front-end framework that streamlines website design. It allows for the creation of easy and responsive web layouts.
