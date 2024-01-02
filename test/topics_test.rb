@@ -136,7 +136,8 @@ describe "topics" do
 
         assert_equal aliases.size, aliases.uniq.size, "should not duplicate aliases"
         assert aliases.size <= MAX_ALIAS_COUNT,
-               "should have no more than #{MAX_ALIAS_COUNT} aliases"
+               "should have no more than #{MAX_ALIAS_COUNT} aliases " \
+               "(currently #{aliases.size})"
       end
 
       it "has valid related topics" do
@@ -151,15 +152,18 @@ describe "topics" do
         assert_equal related_topics.size, related_topics.uniq.size,
                      "should not duplicate related topics"
         assert related_topics.size <= MAX_RELATED_TOPIC_COUNT,
-               "should have no more than #{MAX_RELATED_TOPIC_COUNT} related topics"
+               "should have no more than #{MAX_RELATED_TOPIC_COUNT} related topics " \
+               "(currently #{related_topics.size}"
       end
 
       it "has unique related topics and aliases" do
         aliases = aliases_for(topic)
         related_topics = related_topics_for(topic)
+        aliased_related_topics = aliases & related_topics
 
         assert_empty aliases & related_topics,
-                     "a topic should only be an alias or a related topic, but not both"
+                     "a topic should only be an alias or a related topic, but not both: " \
+                     "Move each of these topics to either aliases or related respectively: #{aliased_related_topics.join(', ')}"
       end
 
       it "has a matching topic key" do
