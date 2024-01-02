@@ -5,6 +5,7 @@ logo: vercel.png
 short_description: Develop. Preview. Ship.
 topic: vercel
 url: https://vercel.com
+related: jamstack, serverless-functions, cdn, observability
 ---
 Vercel is the optimal workflow for frontend teams.
 All-in-one: Static and Jamstack deployment, Serverless Functions, and Global CDN.
