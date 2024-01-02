@@ -1,7 +1,7 @@
 ---
 aliases: org-mode
 topic: orgmode
-related: emacs, latex, markdown, spreadsheet, restructuredtext
+related: emacs, latex, markdown, spreadsheet, restructuredtext, note-taking
 display_name: Org mode
 logo: orgmode.png
 short_description: Org mode is a flexible Personal Management Tool.
