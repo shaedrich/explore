@@ -5,7 +5,10 @@ logo: vercel.png
 short_description: Vercel is a cloud platform as a service company around composable architecture.
 topic: vercel
 url: https://vercel.com
-related: jamstack, serverless-functions, cdn, observability, paas, nextjs, event-driven-architecture
+related: jamstack, serverless-functions, cdn, observability, paas, nextjs
+wikipedia_url: https://en.wikipedia.org/wiki/Vercel
+created_by: Guillermo Rauch, Nicolás Garro
+released: 2015
 ---
 **Vercel Inc.**, formerly **ZEIT** is a cloud platform as a service company. Vercel's architecture is built around composable architecture, and deployments are handled through Git repositories, with support for GitHub, GitLab, and Bitbucket.
 
