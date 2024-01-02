@@ -1,5 +1,5 @@
 ---
-display_name: Server-side rendering
+display_name: Server-side rendering (SSR)
 topic: server-side-rendering
 related: client-side-rendering, hydration, server-side-generation
 short_description: During server-side rendering, the content of a webpage is prepared on the server and only needs to be hydrated by the client.
