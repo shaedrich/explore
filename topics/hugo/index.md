@@ -8,5 +8,6 @@ released: July 04, 2013
 short_description: Hugo is one of the most popular open-source static site generators.
 topic: hugo
 url: https://gohugo.io/
+related: 11ty, jekyll, gatsby, middleman, metalsmith
 ---
-Hugo is a fast and modern static site generator written in Go, and designed to make website creation fun again.
+**Hugo** is a fast and modern static site generator written in Go, and designed to make website creation fun again.
