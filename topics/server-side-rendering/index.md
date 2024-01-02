@@ -1,7 +1,7 @@
 ---
 display_name: Server-side rendering (SSR)
 topic: server-side-rendering
-related: client-side-rendering, hydration, server-side-generation
+related: client-side-rendering, hydration, server-side-generation, incremental-static-regeneration
 short_description: During server-side rendering, the content of a webpage is prepared on the server and only needs to be hydrated by the client.
 wikipedia_url: https://en.wikipedia.org/wiki/Server-side_scripting
 ---
